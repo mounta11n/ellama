@@ -1,0 +1,16 @@
+{
+  "name": "ellama",
+  "version": "1.0.0",
+  "description": "llama.cpp server standalone electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-packager . ellama --platform=darwin --arch=x64 --icon=assets/icon.icns --overwrite --out=release-builds"
+  },
+  "author": "Yazan Agha-Schrader",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "electron": "^29.1.1",
+    "electron-packager": "^17.1.2"
+}
+}
