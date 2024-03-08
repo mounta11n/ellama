@@ -41,6 +41,8 @@ dist/
 node_modules/
 release-builds/
 *.gguf
+assets/server
+assets/*.gguf
 
 # Dependency directories
 node_modules/
