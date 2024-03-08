@@ -43,6 +43,7 @@ release-builds/
 *.gguf
 assets/server
 assets/*.gguf
+.DS_Store
 
 # Dependency directories
 node_modules/
